@@ -1,0 +1,19 @@
+<map id="MainWindow::on_pushButton_clicked" name="MainWindow::on_pushButton_clicked">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,88,197,129"/>
+<area shape="rect" id="Node000002" href="$group__serial__handler.html#ga7d42c35b127316bef2c311ed67f22e7a" title="test başladığında başlangıç tarihi ve zamanını kaydeder, grafik bilgileri" alt="" coords="245,88,460,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,106,229,106,229,111,197,111"/>
+<area shape="rect" id="Node000003" href="$group__result__model__fonksiyonlar_xC4_xB1.html#ga2d44eba91cba7a723b89480a1ea35741" title="test süresinin hesaplanması için oluşturulmuştur" alt="" coords="508,5,689,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="414,85,520,49,522,54,416,90"/>
+<area shape="rect" id="Node000004" href="$group__result__model__fonksiyonlar_xC4_xB1.html#ga12cfa144063b0ccc4ce40a3c27514522" title="sonuç tablosundaki seçili satırın içeriğini günceller" alt="" coords="737,42,944,68"/>
+<area shape="poly" id="edge9_Node000002_Node000004" title=" " alt="" coords="460,94,722,65,722,71,461,99"/>
+<area shape="rect" id="Node000005" href="$group__serial__handler.html#ga52404f859c753c13dbc519a82bbbb6b1" title="Bu fonksiyon sonuçların veritabanına kaydedilmesini sağlar." alt="" coords="992,143,1183,183"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="461,114,976,152,976,157,460,119"/>
+<area shape="rect" id="Node000007" href="$group___table__fonksiyonlar_xC4_xB1.html#ga40f6f271d8535b3ddda611259354be13" title="Bu fonksiyon test değerlerini CSV dosyasına yazar." alt="" coords="512,174,686,200"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="419,127,542,166,541,171,418,132"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="690,34,722,38,721,43,689,39"/>
+<area shape="rect" id="Node000006" href="$group___table__fonksiyonlar_xC4_xB1.html#ga4e5853adac97479240d2406748a305d3" title="Bir QTableWidget&#39;ten verileri test sonuçları tablosuna ekler." alt="" coords="1231,143,1423,183"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1183,160,1215,160,1215,166,1183,166"/>
+<area shape="rect" id="Node000008" href="$group___table__fonksiyonlar_xC4_xB1.html#gafcb4b15ad53f5dd895e1b2c7a96d9dde" title="Bu fonksiyon CBR point&#39;leri CSV dosyasına yazar." alt="" coords="745,171,936,211"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="686,186,730,187,730,192,686,191"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="936,178,976,173,976,178,937,183"/>
+</map>

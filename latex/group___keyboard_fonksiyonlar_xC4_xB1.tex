@@ -1,0 +1,208 @@
+\doxysection{Klavye Fonksiyonları}
+\hypertarget{group___keyboard_fonksiyonlar_xC4_xB1}{}\label{group___keyboard_fonksiyonlar_xC4_xB1}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+QLine\+Edit \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___keyboard_fonksiyonlar_xC4_xB1_ga5f02f4a94cfc736abc5a0153051911d5}{Main\+Window\+::find\+Line\+Edit\+By\+ID}} (const QString \&line\+Edit\+ID)
+\begin{DoxyCompactList}\small\item\em ID numarasına göre QLine\+Edit bileşenini bulur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard_fonksiyonlar_xC4_xB1_ga60ba88910fd433f496db5499dc3f4e90}{Main\+Window\+::line\+Edit\+Map}} ()
+\begin{DoxyCompactList}\small\item\em QLine\+Edit bileşenlerinin harita (map) ayarlarını yapar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard_fonksiyonlar_xC4_xB1_ga45874e46fdb6a306cb76f58ee2aef58b}{Main\+Window\+::open\+Qwerty\+Keyboard\+Dialog}} (const QString \&line\+Edit\+Text\+ID)
+\begin{DoxyCompactList}\small\item\em Alfanumerik bir klavye oluşturur ve işlemler için çağrı signal slot mekanizmasını tetikler. \end{DoxyCompactList}\item 
+QLine\+Edit \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___keyboard_fonksiyonlar_xC4_xB1_gacc6594ce8f5226203e150f69a2e52f45}{Main\+Window\+::find\+Text\+Line\+Edit\+By\+ID}} (const QString \&line\+Edittext\+ID)
+\begin{DoxyCompactList}\small\item\em Numeric klavyeden gelen veriyi onaylar ve beklenen input\+ID değerine göre gerekli işlemleri yerine getirir. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard_fonksiyonlar_xC4_xB1_ga39e3d5982c705a0c9ca228c615eca559}{Main\+Window\+::line\+Edit\+Text\+Map}} ()
+\begin{DoxyCompactList}\small\item\em Test için operatör, info1 ve info2 bilgilerini içeren map fonksiyonunu ayarlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard_fonksiyonlar_xC4_xB1_ga28f97f8c927067bcc6d73bc03dae83a1}{Main\+Window\+::line\+Edit\+Numeric\+Init}} ()
+\begin{DoxyCompactList}\small\item\em Numeric klavye map ayarlarını yapar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___keyboard_fonksiyonlar_xC4_xB1_gac00abef5b5a67aaf4bbad83130f174a2}{Main\+Window\+::on\+Qwerty\+Input\+Confirmed}} (QString\+List Input\+Val)
+\begin{DoxyCompactList}\small\item\em Alfanumerik klavyeden gelen veri ile gerekli işlemlerin gerçekleştirilmesini sağlar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___keyboard_fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471}{Main\+Window\+::on\+Numeric\+Input\+Confirmed}} (QString\+List Input\+Val)
+\begin{DoxyCompactList}\small\item\em Numeric klavyeden gelen veriyi onaylar ve beklenen input\+ID değerine göre gerekli işlemleri yerine getirir. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klavye Fonksiyonlarını içeren gruptur 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group___keyboard_fonksiyonlar_xC4_xB1_ga5f02f4a94cfc736abc5a0153051911d5}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}!findLineEditByID@{findLineEditByID}}
+\index{findLineEditByID@{findLineEditByID}!Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{findLineEditByID()}{findLineEditByID()}}
+{\footnotesize\ttfamily \label{group___keyboard_fonksiyonlar_xC4_xB1_ga5f02f4a94cfc736abc5a0153051911d5} 
+QLine\+Edit \texorpdfstring{$\ast$}{*} Main\+Window\+::find\+Line\+Edit\+By\+ID (\begin{DoxyParamCaption}\item[{const QString \&}]{line\+Edit\+ID}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ID numarasına göre QLine\+Edit bileşenini bulur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em line\+Edit\+ID} & ID numarasına sahip QLine\+Edit bileşeninin adı. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+QLine\+Edit\texorpdfstring{$\ast$}{*} Bulunan QLine\+Edit bileşeni. 
+\end{DoxyReturn}
+\Hypertarget{group___keyboard_fonksiyonlar_xC4_xB1_gacc6594ce8f5226203e150f69a2e52f45}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}!findTextLineEditByID@{findTextLineEditByID}}
+\index{findTextLineEditByID@{findTextLineEditByID}!Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{findTextLineEditByID()}{findTextLineEditByID()}}
+{\footnotesize\ttfamily \label{group___keyboard_fonksiyonlar_xC4_xB1_gacc6594ce8f5226203e150f69a2e52f45} 
+QLine\+Edit \texorpdfstring{$\ast$}{*} Main\+Window\+::find\+Text\+Line\+Edit\+By\+ID (\begin{DoxyParamCaption}\item[{const QString \&}]{line\+Edittext\+ID}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numeric klavyeden gelen veriyi onaylar ve beklenen input\+ID değerine göre gerekli işlemleri yerine getirir. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em line\+Edittext\+ID} & QLine\+Edit bileşeninin ID\textquotesingle{}si. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+QLine\+Edit\texorpdfstring{$\ast$}{*} Bulunan QLine\+Edit bileşeni. 
+\end{DoxyReturn}
+\Hypertarget{group___keyboard_fonksiyonlar_xC4_xB1_ga60ba88910fd433f496db5499dc3f4e90}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}!lineEditMap@{lineEditMap}}
+\index{lineEditMap@{lineEditMap}!Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{lineEditMap()}{lineEditMap()}}
+{\footnotesize\ttfamily \label{group___keyboard_fonksiyonlar_xC4_xB1_ga60ba88910fd433f496db5499dc3f4e90} 
+void Main\+Window\+::line\+Edit\+Map (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+QLine\+Edit bileşenlerinin harita (map) ayarlarını yapar. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard_fonksiyonlar_xC4_xB1_ga60ba88910fd433f496db5499dc3f4e90_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___keyboard_fonksiyonlar_xC4_xB1_ga28f97f8c927067bcc6d73bc03dae83a1}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}!lineEditNumericInit@{lineEditNumericInit}}
+\index{lineEditNumericInit@{lineEditNumericInit}!Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{lineEditNumericInit()}{lineEditNumericInit()}}
+{\footnotesize\ttfamily \label{group___keyboard_fonksiyonlar_xC4_xB1_ga28f97f8c927067bcc6d73bc03dae83a1} 
+void Main\+Window\+::line\+Edit\+Numeric\+Init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numeric klavye map ayarlarını yapar. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard_fonksiyonlar_xC4_xB1_ga28f97f8c927067bcc6d73bc03dae83a1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___keyboard_fonksiyonlar_xC4_xB1_ga39e3d5982c705a0c9ca228c615eca559}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}!lineEditTextMap@{lineEditTextMap}}
+\index{lineEditTextMap@{lineEditTextMap}!Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{lineEditTextMap()}{lineEditTextMap()}}
+{\footnotesize\ttfamily \label{group___keyboard_fonksiyonlar_xC4_xB1_ga39e3d5982c705a0c9ca228c615eca559} 
+void Main\+Window\+::line\+Edit\+Text\+Map (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Test için operatör, info1 ve info2 bilgilerini içeren map fonksiyonunu ayarlar. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard_fonksiyonlar_xC4_xB1_ga39e3d5982c705a0c9ca228c615eca559_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___keyboard_fonksiyonlar_xC4_xB1_ga45874e46fdb6a306cb76f58ee2aef58b}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}!openQwertyKeyboardDialog@{openQwertyKeyboardDialog}}
+\index{openQwertyKeyboardDialog@{openQwertyKeyboardDialog}!Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{openQwertyKeyboardDialog()}{openQwertyKeyboardDialog()}}
+{\footnotesize\ttfamily \label{group___keyboard_fonksiyonlar_xC4_xB1_ga45874e46fdb6a306cb76f58ee2aef58b} 
+void Main\+Window\+::open\+Qwerty\+Keyboard\+Dialog (\begin{DoxyParamCaption}\item[{const QString \&}]{line\+Edit\+Text\+ID}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Alfanumerik bir klavye oluşturur ve işlemler için çağrı signal slot mekanizmasını tetikler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em line\+Edit\+Text\+ID} & Klavyeden girilen verinin aktarılacağı QLine\+Edit ID\textquotesingle{}si. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard_fonksiyonlar_xC4_xB1_ga45874e46fdb6a306cb76f58ee2aef58b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard_fonksiyonlar_xC4_xB1_ga45874e46fdb6a306cb76f58ee2aef58b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Public Slots}
+\Hypertarget{group___keyboard_fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}!onNumericInputConfirmed@{onNumericInputConfirmed}}
+\index{onNumericInputConfirmed@{onNumericInputConfirmed}!Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{onNumericInputConfirmed}{onNumericInputConfirmed}}
+{\footnotesize\ttfamily \label{group___keyboard_fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471} 
+void Main\+Window\+::on\+Numeric\+Input\+Confirmed (\begin{DoxyParamCaption}\item[{QString\+List}]{Input\+Val}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Numeric klavyeden gelen veriyi onaylar ve beklenen input\+ID değerine göre gerekli işlemleri yerine getirir. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Input\+Val} & Key ve value olarak ikiye ayrılacak değer, key işlem yapılacak klavye bileşenidir, value işlem için gerekli değerdir. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard_fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard_fonksiyonlar_xC4_xB1_ga29e16da5735cf655e2564c499569a471_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___keyboard_fonksiyonlar_xC4_xB1_gac00abef5b5a67aaf4bbad83130f174a2}\index{Klavye Fonksiyonları@{Klavye Fonksiyonları}!onQwertyInputConfirmed@{onQwertyInputConfirmed}}
+\index{onQwertyInputConfirmed@{onQwertyInputConfirmed}!Klavye Fonksiyonları@{Klavye Fonksiyonları}}
+\doxysubsubsection{\texorpdfstring{onQwertyInputConfirmed}{onQwertyInputConfirmed}}
+{\footnotesize\ttfamily \label{group___keyboard_fonksiyonlar_xC4_xB1_gac00abef5b5a67aaf4bbad83130f174a2} 
+void Main\+Window\+::on\+Qwerty\+Input\+Confirmed (\begin{DoxyParamCaption}\item[{QString\+List}]{Input\+Val}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Alfanumerik klavyeden gelen veri ile gerekli işlemlerin gerçekleştirilmesini sağlar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Input\+Val} & İlk ve son olarak ikiye ayrılan değerler. İlk değer işlem türünü, son değer ise işlem bilgisini içerir. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group___keyboard_fonksiyonlar_xC4_xB1_gac00abef5b5a67aaf4bbad83130f174a2_icgraph}
+\end{center}
+\end{figure}

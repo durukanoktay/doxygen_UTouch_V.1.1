@@ -1,0 +1,21 @@
+<map id="QCPLayer::drawToPaintBuffer" name="QCPLayer::drawToPaintBuffer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,145,203,170"/>
+<area shape="rect" id="Node000002" href="$class_q_c_p_layer.html#ab831a99c8d30b15ec4533ca341e8813b" title=" " alt="" coords="251,145,369,170"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,155,235,155,235,160,203,160"/>
+<area shape="rect" id="Node000003" href="$class_q_c_p_layerable.html#a1168944abbf9fa6731b0f4a2d0d67e8b" title=" " alt="" coords="417,5,604,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="320,143,359,100,386,76,416,55,424,51,427,55,418,60,389,81,363,104,324,146"/>
+<area shape="rect" id="Node000004" href="$class_q_c_p_layerable.html#acbcfc9ecc75433747b1978a77b1864b3" title=" " alt="" coords="430,70,592,96"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="335,142,416,105,435,98,437,103,418,109,337,147"/>
+<area shape="rect" id="Node000006" href="$class_q_c_p_layerable.html#adf62b4bac3ca934db80290792fc897e1" title=" " alt="" coords="440,120,582,145"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="369,148,424,141,424,146,370,153"/>
+<area shape="rect" id="Node000007" href="$class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7" title=" " alt="" coords="418,169,603,194"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="370,162,403,166,403,171,369,167"/>
+<area shape="rect" id="Node000009" href="$class_q_c_p_painter.html#a64908e6298d5bbd83457dc987cc3a022" title=" " alt="" coords="441,218,580,244"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="337,169,418,205,437,211,436,216,416,209,335,173"/>
+<area shape="rect" id="Node000010" href="$class_q_c_p_painter.html#a8fd6821ee6fecbfa04444c9062912abd" title=" " alt="" coords="447,268,574,293"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="324,169,362,211,389,234,418,254,433,261,431,266,416,259,386,239,359,215,320,173"/>
+<area shape="rect" id="Node000005" href="$class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670" title=" " alt="" coords="652,70,810,96"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="592,80,637,80,637,86,592,86"/>
+<area shape="rect" id="Node000008" href="$class_q_c_p_layer.html#ad1cc2d6b32d2abb33c7f449b964e068c" title=" " alt="" coords="667,169,795,194"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="603,179,651,179,651,184,603,184"/>
+</map>

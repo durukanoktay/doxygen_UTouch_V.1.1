@@ -1,0 +1,11 @@
+<map id="MainWindow::handleTestStoppedByUser" name="MainWindow::handleTestStoppedByUser">
+<area shape="rect" id="Node000001" title="test başladığında başlangıç tarihi ve zamanını kaydeder, grafik bilgileri" alt="" coords="754,27,970,68"/>
+<area shape="rect" id="Node000002" href="$class_main_window.html#a53edf72cb0d6514a67bbe15df56158a1" title="GeneralParser portlar tarafından gelen yakalanmış paketleri inceler." alt="" coords="518,5,703,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="738,36,703,32,703,26,739,30"/>
+<area shape="rect" id="Node000005" href="$class_main_window.html#a4de79c63c7fa0b8d7c468ac71f20be81" title=" " alt="" coords="515,55,706,96"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="739,64,707,67,706,62,738,59"/>
+<area shape="rect" id="Node000003" href="$class_main_window.html#ace954a7e1ea76eb69b2e5aa13a53ae8a" title="sinyal ve slot bağlantıları" alt="" coords="233,5,467,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="503,21,467,21,467,16,503,16"/>
+<area shape="rect" id="Node000004" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,5,185,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="217,21,185,21,185,16,217,16"/>
+</map>

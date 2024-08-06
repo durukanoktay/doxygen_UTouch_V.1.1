@@ -1,0 +1,69 @@
+\doxysection{database\+Manager Class Reference}
+\hypertarget{classdatabase_manager}{}\label{classdatabase_manager}\index{databaseManager@{databaseManager}}
+
+
+{\ttfamily \#include $<$databasemanager.\+h$>$}
+
+
+
+Inheritance diagram for database\+Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{classdatabase_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for database\+Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{classdatabase_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_ga9eeb0b87b86106b6ae7a79e3848553b1}{open\+Database}} (const QString \&db\+Name)
+\begin{DoxyCompactList}\small\item\em Veritabanını açar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gab2a237fa3c5ae6f0128eec6c56e21df5}{database\+Manager}} (QObject \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em \doxylink{classdatabase_manager}{database\+Manager} sınıfının yapıcı fonksiyonu \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__database__fonksiyonlar_xC4_xB1_gacd95dd7aa2a6e8e3c92263d0a8ebe27f}{\texorpdfstring{$\sim$}{\string~}database\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classdatabase_manager}{database\+Manager} sınıfının yıkıcı fonksiyonu \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga4e5853adac97479240d2406748a305d3}{insert\+Data\+From\+Table}} (QTable\+Widget \texorpdfstring{$\ast$}{*}table, const QString operator\+Name, const QString info1, const QString info2, const QString csv\+Full\+Path\+Graph\+Datas, const QString csv\+Full\+Path\+Cbr\+Points, const QString status)
+\begin{DoxyCompactList}\small\item\em Bir QTable\+Widget\textquotesingle{}ten verileri test sonuçları tablosuna ekler. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gac85e5a7a3aa318416020b04d5c995714}{get\+Result\+Data\+By\+Id}} (int id, \mbox{\hyperlink{struct_result_data}{Result\+Data}} \&result\+Data)
+\begin{DoxyCompactList}\small\item\em Veritabanından ID\textquotesingle{}ye göre sonuç verilerini alır. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga510a32850c214e3eaca8c86d23867854}{get\+Csv\+Path\+By\+Id}} (int id, \mbox{\hyperlink{struct_result_data}{Result\+Data}} \&result\+Data)
+\begin{DoxyCompactList}\small\item\em Veritabanından ID\textquotesingle{}ye göre CSV yolunu alır. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_ga7174dcf2694434fdadf4104f4557f30b}{table\+Exists}} (const QString \&table\+Name)
+\begin{DoxyCompactList}\small\item\em Belirlenen tablonun veritabınında olup olmadığı test edilir. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___table__fonksiyonlar_xC4_xB1_gaea86f182c358d244677e8dd100c8b591}{create\+Test\+Results\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Veritabanında test sonuçları tablosunu oluşturur (eğer yoksa). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QSql\+Database \mbox{\hyperlink{classdatabase_manager_a9ca931badf2cf366d57f972845cf32c4}{db}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classdatabase_manager_a9ca931badf2cf366d57f972845cf32c4}\index{databaseManager@{databaseManager}!db@{db}}
+\index{db@{db}!databaseManager@{databaseManager}}
+\doxysubsubsection{\texorpdfstring{db}{db}}
+{\footnotesize\ttfamily \label{classdatabase_manager_a9ca931badf2cf366d57f972845cf32c4} 
+QSql\+Database database\+Manager\+::db\hspace{0.3cm}{\ttfamily [private]}}
+
+Veritabanı bağlantısı. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{databasemanager_8h}{databasemanager.\+h}}\item 
+\mbox{\hyperlink{databasemanager_8cpp}{databasemanager.\+cpp}}\end{DoxyCompactItemize}
